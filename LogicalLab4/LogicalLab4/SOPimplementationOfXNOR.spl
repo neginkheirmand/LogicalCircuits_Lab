@@ -1,0 +1,10 @@
+[Inputs]
+A
+B
+C
+[Outputs]
+f
+[BiDir]
+[ATTRIBUTES]
+VeriModel SOPimplementationOfXNOR
+

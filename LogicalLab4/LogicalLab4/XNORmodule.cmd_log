@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/verilog Ex/projects/LogicalLab4/LogicalLab4/XNORmodule.xst" -ofn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/verilog Ex/projects/LogicalLab4/LogicalLab4/XNORmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 "XNORmodule.ngc" XNORmodule.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o XNORmodule_map.ncd XNORmodule.ngd XNORmodule.pcf 
+par -w -intstyle ise -ol high -mt off XNORmodule_map.ncd XNORmodule.ncd XNORmodule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml XNORmodule.twx XNORmodule.ncd -o XNORmodule.twr XNORmodule.pcf 
