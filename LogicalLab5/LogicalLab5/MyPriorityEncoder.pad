@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Sun Nov 15 04:10:58 2020
+Sun Nov 15 04:43:33 2020
 
 
 # NOTE: This file is designed to be imported into a spreadsheet program
@@ -9,8 +9,8 @@ Sun Nov 15 04:10:58 2020
 # character is used as the data field separator. This file is also designed
 # to support parsing.
 #
-INPUT FILE:       MUXmodule_map.ncd
-OUTPUT FILE:      MUXmodule.pad
+INPUT FILE:       MyPriorityEncoder_map.ncd
+OUTPUT FILE:      MyPriorityEncoder.pad
 PART TYPE:        xc7z010
 SPEED GRADE:      -1
 PACKAGE:          clg400
@@ -317,7 +317,7 @@ R15|||VCCO_34|||34|||||1.80||||
 R16||IOB33M|IO_L19P_T3_34|UNUSED||34|||||||||
 R17||IOB33S|IO_L19N_T3_VREF_34|UNUSED||34|||||||||
 R18||IOB33S|IO_L20N_T3_34|UNUSED||34|||||||||
-R19|S0|IOB|IO_0_34|INPUT|LVCMOS18*|34||||NONE||UNLOCATED|NO|NONE|
+R19|A0|IOB|IO_0_34|OUTPUT|LVCMOS18*|34|12|SLOW||||UNLOCATED|NO|NONE|
 R20|||GND||||||||||||
 T1||IOPAD|PS_DDR_DM2_502|UNUSED|||||||||||
 T2||IOPAD|PS_DDR_DQS_N2_502|UNUSED|||||||||||
@@ -328,9 +328,9 @@ T6|||RSVDVCC1||||||||||||
 T7|||GND||||||||||||
 T8|||VCCO_13|||13|||||any******||||
 T9|||NC||||||||||||
-T10|y|IOB|IO_L1N_T0_34|OUTPUT|LVCMOS18*|34|12|SLOW||||UNLOCATED|NO|NONE|
-T11|S1|IOB|IO_L1P_T0_34|INPUT|LVCMOS18*|34||||NONE||UNLOCATED|NO|NONE|
-T12|W0|IOB|IO_L2P_T0_34|INPUT|LVCMOS18*|34||||NONE||UNLOCATED|NO|NONE|
+T10|D1|IOB|IO_L1N_T0_34|INPUT|LVCMOS18*|34||||NONE||UNLOCATED|NO|NONE|
+T11|A1|IOB|IO_L1P_T0_34|OUTPUT|LVCMOS18*|34|12|SLOW||||UNLOCATED|NO|NONE|
+T12|D2|IOB|IO_L2P_T0_34|INPUT|LVCMOS18*|34||||NONE||UNLOCATED|NO|NONE|
 T13|||GND||||||||||||
 T14||IOB33M|IO_L5P_T0_34|UNUSED||34|||||||||
 T15||IOB33S|IO_L5N_T0_34|UNUSED||34|||||||||
@@ -350,8 +350,8 @@ U8|||NC||||||||||||
 U9|||NC||||||||||||
 U10|||NC||||||||||||
 U11|||VCCO_13|||13|||||any******||||
-U12|W1|IOB|IO_L2N_T0_34|INPUT|LVCMOS18*|34||||NONE||UNLOCATED|NO|NONE|
-U13|W2|IOB|IO_L3P_T0_DQS_PUDC_B_34|INPUT|LVCMOS18*|34||||NONE||UNLOCATED|NO|NONE|
+U12|D3|IOB|IO_L2N_T0_34|INPUT|LVCMOS18*|34||||NONE||UNLOCATED|NO|NONE|
+U13||IOB33M|IO_L3P_T0_DQS_PUDC_B_34|UNUSED||34|||||||||
 U14||IOB33M|IO_L11P_T1_SRCC_34|UNUSED||34|||||||||
 U15||IOB33S|IO_L11N_T1_SRCC_34|UNUSED||34|||||||||
 U16|||GND||||||||||||
@@ -371,7 +371,7 @@ V9|||GND||||||||||||
 V10|||NC||||||||||||
 V11|||NC||||||||||||
 V12||IOB33M|IO_L4P_T0_34|UNUSED||34|||||||||
-V13|W3|IOB|IO_L3N_T0_DQS_34|INPUT|LVCMOS18*|34||||NONE||UNLOCATED|NO|NONE|
+V13||IOB33S|IO_L3N_T0_DQS_34|UNUSED||34|||||||||
 V14|||VCCO_34|||34|||||1.80||||
 V15||IOB33M|IO_L10P_T1_34|UNUSED||34|||||||||
 V16||IOB33M|IO_L18P_T2_34|UNUSED||34|||||||||
