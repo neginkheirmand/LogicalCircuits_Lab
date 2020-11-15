@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-11-15T03:50:29</DateModified>
+  <DateModified>2020-11-15T05:16:31</DateModified>
   <ModuleName>MUXmodule</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/verilog Ex/projects/LogicalLab5/LogicalLab5/iseconfig/MUXmodule.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/verilog Ex/projects/LogicalLab5/LogicalLab5</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/verilog Ex/projects/LogicalLab5/LogicalLab5\</ImplementationReportsDirectory>
   <DateInitialized>2020-11-15T03:50:29</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
