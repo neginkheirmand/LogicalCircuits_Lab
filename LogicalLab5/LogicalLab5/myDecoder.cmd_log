@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/verilog Ex/projects/LogicalLab5/LogicalLab5/myDecoder.xst" -ofn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/verilog Ex/projects/LogicalLab5/LogicalLab5/myDecoder.syr" 
-xst -intstyle ise -ifn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/verilog Ex/projects/LogicalLab5/LogicalLab5/myDecoder.xst" -ofn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/verilog Ex/projects/LogicalLab5/LogicalLab5/myDecoder.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 "myDecoder.ngc" myDecoder.ngd  
-map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o myDecoder_map.ncd myDecoder.ngd myDecoder.pcf 
-par -w -intstyle ise -ol high -mt off myDecoder_map.ncd myDecoder.ncd myDecoder.pcf 
-trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml myDecoder.twx myDecoder.ncd -o myDecoder.twr myDecoder.pcf 
